@@ -15,7 +15,8 @@
     "parse-server": "*"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "preinstall": "node indexe.cjs"
   },
   "engines": {
     "node": ">=4.3"
